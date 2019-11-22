@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync -w -s"
+    "start": "browser-sync -w -s",
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Serhii-P/html-template#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.7",
+    "gh-pages": "^2.0.1"
   }
 }
